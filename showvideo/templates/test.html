@@ -1,0 +1,9 @@
+<form>
+    {% csrf_token %}
+    <div class="form-group">
+      <label for="comment">Comment:</label>
+      <textarea class="form-control" rows="5" name="com" id="textarea{{ some_id }}"></textarea>
+      <input class="form-control" type="password" name="pwd">
+    </div>
+    <button type="button" class="btn btn-outline-dark" id="{{ some_id }}">Dark</button>
+</form>
