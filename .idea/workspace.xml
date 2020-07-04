@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a407a460-4eb0-441a-91a8-b659c6277a10" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/showvideo/templates/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/showvideo/templates/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/showvideo/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/showvideo/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/videostore/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/videostore/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +106,7 @@
       <workItem from="1592407934570" duration="10375000" />
       <workItem from="1592636512836" duration="6390000" />
       <workItem from="1593848564675" duration="42000" />
-      <workItem from="1593848611630" duration="5643000" />
+      <workItem from="1593848611630" duration="7818000" />
     </task>
     <task id="LOCAL-00001" summary="add video content">
       <created>1591208339649</created>
@@ -166,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592418527061</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Testing">
+      <created>1593854595388</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1593854595389</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,12 +182,21 @@
     <MESSAGE value="add main template and comment field" />
     <MESSAGE value="add js script and admin tools" />
     <MESSAGE value="add API" />
-    <option name="LAST_COMMIT_MESSAGE" value="add API" />
+    <MESSAGE value="Testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testing" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="226" y="23" key="CommitChangelistDialog2" timestamp="1593854595082">
+      <screen x="0" y="23" width="1280" height="733" />
+    </state>
+    <state x="226" y="23" key="CommitChangelistDialog2/0.23.1280.733@0.23.1280.733" timestamp="1593854595082" />
     <state x="141" y="28" key="SettingsEditor" timestamp="1593853102232">
       <screen x="0" y="23" width="1280" height="733" />
     </state>
     <state x="141" y="28" key="SettingsEditor/0.23.1280.733@0.23.1280.733" timestamp="1593853102232" />
+    <state x="462" y="290" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1593855822884">
+      <screen x="0" y="23" width="1280" height="733" />
+    </state>
+    <state x="462" y="290" key="git4idea.remote.GitConfigureRemotesDialog/0.23.1280.733@0.23.1280.733" timestamp="1593855822884" />
   </component>
 </project>

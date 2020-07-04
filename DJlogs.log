@@ -1,0 +1,70 @@
+Not Found: /hello/
+"GET /hello/ HTTP/1.1" 404 4232
+Not Found: /
+"GET / HTTP/1.1" 404 2351
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2402
+Not Found: /
+"GET / HTTP/1.1" 404 2351
+KeyError in ajax_like
+Internal Server Error: /hello/ajax/add_like/
+Traceback (most recent call last):
+  File "/Applications/Utilities/anaconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Applications/Utilities/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Applications/Utilities/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/mac/Downloads/bestvideostore/showvideo/views.py", line 74, in ajax_like
+    video.likes += 1
+UnboundLocalError: local variable 'video' referenced before assignment
+"GET /hello/ajax/add_like/?id=1 HTTP/1.1" 500 14068
+KeyError in ajax_like
+Internal Server Error: /hello/ajax/add_like/
+Traceback (most recent call last):
+  File "/Applications/Utilities/anaconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Applications/Utilities/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Applications/Utilities/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/mac/Downloads/bestvideostore/showvideo/views.py", line 74, in ajax_like
+    video.likes += 1
+UnboundLocalError: local variable 'video' referenced before assignment
+"GET /hello/ajax/add_like/?id=1 HTTP/1.1" 500 14068
+KeyError in ajax_like
+KeyError in ajax_like
+KeyError in ajax_like
+KeyError in ajax_like
+Watching for file changes with StatReloader
+"GET /hello/456/ HTTP/1.1" 200 1472
+/Users/mac/Downloads/bestvideostore/videostore/settings.py changed, reloading.
+2020/07/04 12:52:56 INFO [django.utils.autoreload:34790:Watching for file changes with StatReloader]
+2020/07/04 12:53:11 CRITICAL [django:34790:KeyError in ajax_like]
+2020/07/04 12:53:11 ERROR [django.request:34790:Internal Server Error: /hello/ajax/add_like/]
+Traceback (most recent call last):
+  File "/Applications/Utilities/anaconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Applications/Utilities/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Applications/Utilities/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/mac/Downloads/bestvideostore/showvideo/views.py", line 74, in ajax_like
+    video.likes += 1
+UnboundLocalError: local variable 'video' referenced before assignment
+2020/07/04 12:53:11 ERROR [django.server:34790:"GET /hello/ajax/add_like/?id=1 HTTP/1.1" 500 14225]
+2020/07/04 12:53:12 CRITICAL [django:34790:KeyError in ajax_like]
+2020/07/04 12:53:12 ERROR [django.request:34790:Internal Server Error: /hello/ajax/add_like/]
+Traceback (most recent call last):
+  File "/Applications/Utilities/anaconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Applications/Utilities/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Applications/Utilities/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/mac/Downloads/bestvideostore/showvideo/views.py", line 74, in ajax_like
+    video.likes += 1
+UnboundLocalError: local variable 'video' referenced before assignment
+2020/07/04 12:53:12 ERROR [django.server:34790:"GET /hello/ajax/add_like/?id=1 HTTP/1.1" 500 14225]
+2020/07/04 12:54:35 INFO [django.utils.autoreload:34790:/Users/mac/Downloads/bestvideostore/showvideo/views.py changed, reloading.]
+2020/07/04 12:54:36 INFO [django.utils.autoreload:34813:Watching for file changes with StatReloader]

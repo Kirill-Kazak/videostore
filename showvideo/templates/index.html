@@ -1,0 +1,32 @@
+{% extends "main_template.html" %}
+{% load static %}
+{% block title %}all video{% endblock %}
+{% block links %}<script src="{% static "script.js" %}"></script>{% endblock %}
+
+
+{% block video %}
+<img src="{% static "123.jpg" %}">
+{% for video in content %}
+    <iframe width="956" height="538" src="{{ video.urls }}"></iframe>
+    <a href={% url "one_video" id=video.id %}>
+        <h4>
+            <i>{{ video.title }}</i>
+        </h4>
+    </a>
+    <h3>{{ video.date }}</h3>
+    <h3 class="like" id="{{ video.id }}">Likes: {{ video.likes }}</h3>
+    <h5>{{ video.description }}</h5>
+    <div id="comment-container{{ video.id }}">
+    {% for com in video.comment.all %}
+        <button data-toggle="collapse" data-target="#demo{{ com.id }}">Collapsible</button>
+        <div id="demo{{ com.id }}" class="collapse">
+            <i>{{ com.text }}</i>
+        </div>
+        <h6>{{ com.date }}</h6>
+        <hr>
+    {% endfor %}
+    </div>
+
+{% include "test.html" with some_id=video.id %}
+{% endfor %}
+{% endblock %}

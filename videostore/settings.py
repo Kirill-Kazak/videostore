@@ -115,17 +115,25 @@ STATIC_ROOT = "./static/"
 
 LOGGING = {
     'version': 1,
+    'formatters':{
+        'verbose':{
+            'format':'{asctime} {levelname} [{name}:{process}:{message}]',
+            'style':'{',
+            'datefmt':'%Y/%m/%d %H:%M:%S',
+        },
+    },
     'handlers':{
         'file':{
             'class': 'logging.FileHandler',
             'filename': 'DJlogs.log',
-            'level':'WARNING'
+            'level':'INFO',
+            'formatter':'verbose',
         },
     },
     "loggers":{
         "django":{
             "handlers":["file"],
-            "level":"WARNING"
+            "level":"INFO"
         }
     }
 }
