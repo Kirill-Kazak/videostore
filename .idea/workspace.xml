@@ -58,7 +58,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="sshConsole" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -90,8 +90,14 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+    <option name="myConnectionType" value="CURRENT_VAGRANT" />
+    <option name="myConnectionId" value="" />
+  </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>$USER_HOME$/.subversion</configuration>
+    <option name="sshConnectionType" value="PASSWORD" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -106,7 +112,7 @@
       <workItem from="1592407934570" duration="10375000" />
       <workItem from="1592636512836" duration="6390000" />
       <workItem from="1593848564675" duration="42000" />
-      <workItem from="1593848611630" duration="7818000" />
+      <workItem from="1593848611630" duration="10582000" />
     </task>
     <task id="LOCAL-00001" summary="add video content">
       <created>1591208339649</created>
@@ -190,13 +196,17 @@
       <screen x="0" y="23" width="1280" height="733" />
     </state>
     <state x="226" y="23" key="CommitChangelistDialog2/0.23.1280.733@0.23.1280.733" timestamp="1593854595082" />
-    <state x="141" y="28" key="SettingsEditor" timestamp="1593853102232">
+    <state x="141" y="28" key="SettingsEditor" timestamp="1593932821815">
       <screen x="0" y="23" width="1280" height="733" />
     </state>
-    <state x="141" y="28" key="SettingsEditor/0.23.1280.733@0.23.1280.733" timestamp="1593853102232" />
-    <state x="462" y="290" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1593855822884">
+    <state x="141" y="28" key="SettingsEditor/0.23.1280.733@0.23.1280.733" timestamp="1593932821815" />
+    <state x="240" y="129" key="Vcs.Push.Dialog.v2" timestamp="1593932813308">
       <screen x="0" y="23" width="1280" height="733" />
     </state>
-    <state x="462" y="290" key="git4idea.remote.GitConfigureRemotesDialog/0.23.1280.733@0.23.1280.733" timestamp="1593855822884" />
+    <state x="240" y="129" key="Vcs.Push.Dialog.v2/0.23.1280.733@0.23.1280.733" timestamp="1593932813308" />
+    <state x="462" y="290" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1593901947492">
+      <screen x="0" y="23" width="1280" height="733" />
+    </state>
+    <state x="462" y="290" key="git4idea.remote.GitConfigureRemotesDialog/0.23.1280.733@0.23.1280.733" timestamp="1593901947492" />
   </component>
 </project>
